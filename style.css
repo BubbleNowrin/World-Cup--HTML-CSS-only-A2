@@ -96,7 +96,7 @@ h1 {
 .aside-bar {
     background-color: black;
     width: 25vw;
-    height: 35vh;
+    height: 50vh;
     border-radius: 10px;
     /* margin: 10px; */
 }
@@ -111,11 +111,11 @@ h1 {
     align-items: center;
     background-color: white;
     color: black;
-    margin: 18px;
+    margin: 25px;
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
-    padding: 15px 27px;
+    padding: 20px 35px;
 }
 
 
