@@ -128,6 +128,16 @@ h1 {
     display: flex;
 }
 
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-left: 10px;
+
+}
+
 .blog .blog-banner img {
     width: 100%;
     height: 20%;
@@ -161,14 +171,7 @@ h1 {
     font-size: 1.25em;
 }
 
-.blogs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 25px;
-    column-gap: 25px;
-    margin-left: 10px;
 
-}
 
 .blog {
     border: 2px solid #E8E8E8;
