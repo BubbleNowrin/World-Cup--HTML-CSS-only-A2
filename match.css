@@ -153,6 +153,7 @@ h1 {
     border: 2px solid #E8E8E8;
     border-radius: 10px;
     flex-grow: 1;
+    box-shadow: 5px 5px 5px 2px lightslategray;
 
 
 }
