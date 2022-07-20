@@ -98,7 +98,7 @@ h1 {
     width: 25vw;
     height: 35vh;
     border-radius: 10px;
-    /* margin: 10px; */
+    margin: 10px;
 }
 
 
@@ -166,9 +166,9 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 25px;
     column-gap: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    /* margin: 10px; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    margin: 10px;
 }
 
 .blog {
