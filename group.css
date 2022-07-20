@@ -1,0 +1,229 @@
+/* --------General Styles & Utilities ----------*/
+
+
+/* --------------Google Font Link------------ */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 50px 140px; */
+    max-width: 1240px;
+    margin: 0 auto;
+
+}
+
+/*------- First-Section Styles------- */
+
+.top-section {
+    background-color: black;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.split {
+    display: flex;
+}
+
+
+
+
+.section-title {
+    margin: 70px 106px;
+    width: 50%;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3.5vw;
+}
+
+.section-title p {
+    color: lightgray;
+    font-weight: 400;
+    font-size: 1vw;
+    margin-top: -30px;
+    margin-bottom: 35px;
+}
+
+
+
+.btn {
+    background-color: #DD0000;
+    text-decoration: none;
+    color: white;
+    padding: 16px 25px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.fa-chevron-right {
+    margin-left: 10px;
+}
+
+.section-banner {
+    width: 50%;
+    margin: 30px;
+}
+
+.section-banner img {
+    width: 100%;
+
+}
+
+.tablet-btn a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DD0000;
+
+}
+
+.tablet-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+/* ------------------Blogs-Section Styles--------------------*/
+.aside-bar {
+    background-color: black;
+    width: 25vw;
+    height: 45vh;
+    border-radius: 10px;
+    /* margin: 10px; */
+}
+
+
+
+.blog-btn {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+
+.red-btn {
+    background-color: #DD0000;
+    color: white;
+}
+
+.blog-split {
+    display: flex;
+}
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-left: 10px;
+
+}
+
+.blog .blog-banner img {
+    width: 100%;
+    height: 20%;
+}
+
+.transfer-btn {
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid black;
+    text-align: center;
+    width: 40%;
+    height: 32px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+
+.blog-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.fa-flag-checkered {
+    color: #161616CC;
+    font-size: 1.25em;
+}
+
+
+
+.blog {
+    border: 2px solid #E8E8E8;
+    border-radius: 10px;
+    flex-grow: 1;
+    box-shadow: 5px 5px 5px 2px lightslategray;
+}
+
+.blog-detail {
+    margin: 20px;
+}
+
+.blog-section {
+    display: flex;
+    margin-top: 130px;
+}
+
+/* ----------------Footer Style--------------------- */
+.footer-section {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+
+}
+
+
+
+
+h2 {
+    padding-top: 70px;
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.option a {
+    text-decoration: none;
+    color: lightgray;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 500;
+
+}
+
+.fa-brands {
+    font-size: 2em;
+    color: white;
+    margin-left: 25px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
