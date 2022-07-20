@@ -5,7 +5,10 @@
 body {
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-family: 'Poppins', sans-serif;
-    margin: 50px 140px;
+    /* margin: 50px 140px; */
+    max-width: 1240px;
+    margin: 0 auto;
+
 }
 
 /*------- first-section styles------- */
@@ -13,11 +16,18 @@ body {
 .top-section {
     background-color: black;
     border-radius: 30px;
-    height: 40%;
+    /* height: 40%; */
     width: 100%;
-    display: flex;
+
 
 }
+
+.split {
+    display: flex;
+}
+
+
+
 
 .section-title {
     margin: 70px 106px;
@@ -27,13 +37,13 @@ body {
 h1 {
     color: white;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 3.5vw;
 }
 
 .section-title p {
     color: lightgray;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1vw;
     margin-top: -30px;
     margin-bottom: 35px;
 }
@@ -54,21 +64,41 @@ h1 {
     margin-left: 10px;
 }
 
+.section-banner {
+    /* margin: 33px 79px; */
+    width: 50%;
+    margin: 30px;
+}
+
 .section-banner img {
     width: 100%;
 
 }
 
-.section-banner {
-    margin: 33px 79px;
-    width: 50%;
+.tablet-btn a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DD0000;
+
 }
+
+.tablet-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
 
 /* ------------------blogs-section styles--------------------*/
 .aside-bar {
     background-color: black;
-    width: 25%;
-    height: 312px;
+    width: 25vw;
+    height: 40vh;
     border-radius: 10px;
 }
 
@@ -76,10 +106,9 @@ h1 {
 
 .blog-btn {
     text-decoration: none;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
     color: black;
@@ -90,14 +119,19 @@ h1 {
     padding: 17px 29px;
 }
 
+
 .red-btn {
     background-color: #DD0000;
     color: white;
 }
 
+.blog-split {
+    display: flex;
+}
+
 .blog .blog-banner img {
     width: 100%;
-    height: 175px;
+    height: 20%;
 }
 
 .transfer-btn {
@@ -107,8 +141,9 @@ h1 {
     font-weight: 700;
     border: 1px solid black;
     text-align: center;
-    width: 100px;
+    width: 40%;
     height: 32px;
+    font-size: 1em;
     border-radius: 5px;
 }
 
@@ -124,7 +159,7 @@ h1 {
 .fa-clock,
 .fa-comment-dots {
     color: #161616CC;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .blogs {
@@ -163,7 +198,7 @@ h1 {
 h2 {
     padding-top: 70px;
     color: white;
-    font-size: 40px;
+    font-size: 3em;
     font-weight: 600;
 }
 
@@ -175,16 +210,19 @@ hr {
 .option a {
     text-decoration: none;
     color: lightgray;
-    margin-left: 30px;
-    font-size: 16px;
+    margin-left: 20px;
+    font-size: 1em;
     font-weight: 500;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .fa-brands {
-    font-size: 30px;
+    font-size: 2em;
     color: white;
     margin-left: 25px;
     padding: 50px;
     margin-bottom: 30px;
 }
+
+/* --------------------media queries-----------------  */
+/* ---------------mobile--------------- */

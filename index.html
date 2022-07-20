@@ -6,243 +6,335 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Cup</title>
+    <!-- ---------------frontawesome link------------- -->
     <script src="https://kit.fontawesome.com/519e1fb7fa.js" crossorigin="anonymous"></script>
+    <!-- ---------------stylesheet link----------------- -->
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* -------PC Device---------- */
+        @media screen and (min-width:993px) {
+            .tablet-btn {
+                display: none;
+            }
+        }
+
+        /* -------Tablet device------ */
+        @media screen and (min-width:689px) and (max-width:992px) {
+            .aside-bar {
+                width: 100vw;
+                height: auto;
+                background-color: white;
+
+            }
+
+            .btn-container {
+                display: flex;
+                justify-content: space-evenly;
+
+            }
+
+
+
+            .blog-split {
+                flex-direction: column;
+            }
+
+            .blogs {
+
+                grid-template-columns: repeat(2, 1fr);
+
+            }
+
+            .tablet-btn {
+
+                visibility: visible;
+            }
+
+
+        }
+
+        /* -------------Mobile device---------- */
+        @media screen and (max-width:688px) {
+            .split {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .section-title p {
+                font-size: 1em;
+            }
+
+            .aside-bar {
+                width: 100vw;
+                height: auto;
+                background-color: white;
+
+            }
+
+            .blog-split {
+                flex-direction: column;
+            }
+
+            .blogs {
+
+                grid-template-columns: repeat(1, 1fr);
+
+            }
+
+            .tablet-btn {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <section class="top-section">
-        <div class="section-title">
-            <h1>The Greatest Show On Earth</h1>
-            <p>The wait is over. FIFA World Cup Qatar 2022 is here.What the world was waiting for. Get through the
-                exciting
-                updates and match fixtures about the events here. </p>
-            <a href="#" class="btn">Watch Live<i class="fa fa-thin fa-chevron-right"></i></i></a>
-        </div>
-        <div class="section-banner">
-            <img src="assets/Banner Image.png" alt="footballer">
+        <div class="split">
+            <div class="section-title">
+                <h1>The Greatest Show On Earth</h1>
+                <p>The wait is over. FIFA World Cup Qatar 2022 is here.What the world was waiting for. Get through the
+                    exciting
+                    updates and match fixtures about the events here. </p>
+                <a href="#" class="btn">Watch Live<i class="fa fa-thin fa-chevron-right"></i></i></a>
+            </div>
+            <div class="section-banner">
+                <img src="assets/Banner Image.png" alt="footballer">
 
+            </div>
         </div>
     </section>
 
     <section class="blog-section">
-        <div class="aside-bar">
-            <div class="btn-container">
-                <a href="#" class="blog-btn">Upcoming Match</a>
-                <a href="#" class="blog-btn">All Group</a>
-                <a href="#" class="blog-btn red-btn">Blog</a>
+        <div class="blog-split">
+            <div class="aside-bar">
+                <div class="btn-container">
+                    <a href="#" class="blog-btn">Matches</a>
+                    <a href="#" class="blog-btn">All Group</a>
+                    <a href="#" class="blog-btn red-btn">Blogs</a>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog">
+                    <div class="blog-banner">
+                        <img src="assets/Blog Image.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <button class="transfer-btn">Transfer</button>
+                        <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
+
+                    </div>
+                    <div class="blog-info">
+                        <div>
+                            <i class="fa fa-light fa-clock"></i>
+                            <span>10h</span>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thin fa-comment-dots"></i>
+                            <span>23</span>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div class="blogs">
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
 
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
-
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
-
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
-
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
-
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
-
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
-
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
-
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="blog">
-                <div class="blog-banner">
-                    <img src="assets/Blog Image.png" alt="">
-                </div>
-                <div class="blog-detail">
-                    <button class="transfer-btn">Transfer</button>
-                    <h3 class="blog-title">Transfer Live: Chelsea in talks over kimpenbe transfer</h3>
-
-                </div>
-                <div class="blog-info">
-                    <div>
-                        <i class="fa fa-light fa-clock"></i>
-                        <span>10h</span>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-thin fa-comment-dots"></i>
-                        <span>23</span>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
     </section>
+    <div class="tablet-btn">
+        <a href="#">View All</a>
+    </div>
     <section class="footer-section">
         <footer>
             <div class="half-height">
@@ -255,7 +347,7 @@
                     <a href="#">Terms of Service</a>
                     <a href="#">Privacy Policy</a>
                     <a href="#">Privacy Settings</a>
-                    <a href="#">Goal Live</a>
+                    <a href="#">Goal-Live</a>
                 </div>
                 <div class="social-icon">
                     <a href=""><i class="fa-brands fa-facebook"></i></a>
