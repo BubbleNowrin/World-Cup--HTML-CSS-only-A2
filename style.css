@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
     /* margin: 50px 140px; */
     max-width: 1240px;
-    margin: 0 auto;
+    margin: 0 auto 10 auto;
 
 }
 
@@ -225,6 +225,3 @@ hr {
     padding: 50px;
     margin-bottom: 30px;
 }
-
-/* --------------------media queries-----------------  */
-/* ---------------mobile--------------- */
